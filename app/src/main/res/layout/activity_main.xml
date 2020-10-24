@@ -24,10 +24,11 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="240dp"
-        android:layout_marginBottom="436dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="124dp"
         android:backgroundTint="#673AB7"
         android:text="Pedido"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -38,5 +39,85 @@
         app:srcCompat="@drawable/hamburgue"
         tools:layout_editor_absoluteX="227dp"
         tools:layout_editor_absoluteY="2dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acompanhamentos"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="57dp"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bacon"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Queijo"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Onions Rings"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+        android:text="+"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="14dp"
+        android:onClick="somar"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+        android:text="-"
+        android:textSize="15sp"
+        android:onClick="subtrair"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="378dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
